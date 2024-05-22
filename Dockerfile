@@ -15,7 +15,7 @@ FROM python:3.11
 
 RUN \
   pip install --upgrade pip && \
-  pip install --no-cache-dir cmake==3.14 && \
+  pip install --no-cache-dir cmake==3.28 && \
   pip install --no-cache-dir pillow && \
   pip install --no-cache-dir numpy && \
   pip3 install --no-cache-dir gpiod && \
