@@ -10,7 +10,6 @@ RUN \
     tiff \
     openblas-dev \
     cmake \
-    build-essential \
     py3-pip
 
 FROM python:3.9
