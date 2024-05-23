@@ -18,7 +18,7 @@ RUN \
   pip install --upgrade pip && \
   pip install --upgrade setuptools wheel && \
   pip install --no-cache-dir pillow && \
-  pip3 install --no-cache-dir numpy~=1.23 && \
+  pip3 install --no-cache-dir numpy==1.22.3 && \
   pip3 install --no-cache-dir gpiod && \
   pip3 install --no-cache-dir smbus
 
