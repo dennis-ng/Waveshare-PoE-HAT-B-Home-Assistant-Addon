@@ -16,7 +16,6 @@ ARG PIP_ONLY_BINARY=cmake
 RUN \
   pip install --upgrade pip && \
   pip install --no-cache-dir pillow && \
-  pip3 install --no-cache-dir cmake<3.23 && \
   pip3 install --no-cache-dir numpy && \
   pip3 install --no-cache-dir gpiod && \
   pip3 install --no-cache-dir smbus
